@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af4c456-cda5-4fe4-ae9c-020d0ae7a0a6" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars.html" afterDir="false" />
+    <list default="true" id="4af4c456-cda5-4fe4-ae9c-020d0ae7a0a6" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CarDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CarDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cars.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -173,7 +176,8 @@
       <workItem from="1714321509909" duration="457000" />
       <workItem from="1714322018808" duration="14147000" />
       <workItem from="1714416318253" duration="4865000" />
-      <workItem from="1714422457588" duration="9034000" />
+      <workItem from="1714422457588" duration="9142000" />
+      <workItem from="1714581193804" duration="932000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1714580826732</created>
@@ -182,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714580826732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1714581020186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714581020186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
