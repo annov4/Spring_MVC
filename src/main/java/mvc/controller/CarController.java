@@ -2,7 +2,6 @@ package mvc.controller;
 
 import mvc.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,9 +15,6 @@ public class CarController {
 
     private final CarService service;
 
-    @Value("${max.car}")
-    private int maxCar;
-
     @Autowired
     public CarController(CarService service) {
         this.service = service;
@@ -26,11 +22,7 @@ public class CarController {
 
     @GetMapping()
     public String carsPage(@RequestParam(value = "count", required = false) Integer count, Model model) {
-        if (count == null || count >= maxCar) {
-            model.addAttribute("cars", service.getCars());
-        }else {
-            model.addAttribute("cars", service.getCars(count));
-        }
+        model.addAttribute("cars", service.getCars(count));
         return "cars";
     }
 }
