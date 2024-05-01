@@ -1,6 +1,6 @@
-package dao;
+package mvc.dao;
 
-import model.Car;
+import mvc.model.Car;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

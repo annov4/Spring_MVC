@@ -1,7 +1,7 @@
-package service;
+package mvc.service;
 
-import dao.CarDao;
-import model.Car;
+import mvc.dao.CarDao;
+import mvc.model.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

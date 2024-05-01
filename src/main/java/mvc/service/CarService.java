@@ -1,6 +1,6 @@
-package service;
+package mvc.service;
 
-import model.Car;
+import mvc.model.Car;
 import java.util.List;
 
 public interface CarService {
