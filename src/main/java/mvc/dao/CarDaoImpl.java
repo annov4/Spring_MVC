@@ -10,9 +10,11 @@ import java.util.List;
 public class CarDaoImpl implements CarDao {
     private List<Car> carList = new ArrayList<>();
     {
+        carList.add(new Car("BMW", "XM", 2023));
         carList.add(new Car("Toyota", "Corolla", 2000));
         carList.add(new Car("BMW", "F10", 2020));
         carList.add(new Car("Ford", "Focus", 2013));
+        carList.add(new Car("AUDI", "A6", 2014));
     }
 
     @Override
